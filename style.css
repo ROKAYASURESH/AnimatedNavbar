@@ -131,6 +131,9 @@ a:nth-child(5){
     position: absolute;
     content: "Your Future!!";
     display: flex;
+    /* -webkit-text-stroke-color: red; */
+    -webkit-text-stroke: orangered 1px;
+
     justify-content: center;
     align-items: center;
     font-size: 40px;
@@ -178,7 +181,40 @@ a:nth-child(5){
     }
     
 }
+.circle p{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    /* background-color: red; */
+    animation: rounde 3s linear infinite reverse;
+}
+.circle p::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background:linear-gradient(orangered, white);
+    opacity: .6;
+    /* clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); */
 
+    /* left: 32px; */
+    /* border: 3px solid rgb(22, 16, 16); */
+    /* box-shadow: -10px -10px 10px white, 10px 10px 10px orangered, -10px -10px 15px wheat, 10px 10px 10px orangered; */
+}
+@keyframes rounde {
+    0%{
+        transform: rotate(0deg);
+ 
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
 .home {
     /* margin: 200px; */
     /* padding-right: 200px; */
