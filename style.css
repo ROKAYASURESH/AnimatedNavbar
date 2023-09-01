@@ -121,7 +121,7 @@ a:nth-child(5){
     height: 350px;
     width: 350px;
     border-radius: 50%;
-    background-color: rgb(90, 79, 79);
+    /* background-color: rgb(90, 79, 79); */
     /* box-shadow: -10px -10px 15px wheat, 10px 10px 10px orangered, -10px -10px 15px wheat, 10px 10px 10px orangered; */
     box-shadow: 0px 0px 10px  wheat, 0px 0px 10px orangered, 0px 0px 10px wheat, 0px 0px 10px orangered; 
 
@@ -142,7 +142,7 @@ a:nth-child(5){
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    background-color: gray;
+    /* background-color: gray; */
     box-shadow: 0px 0px 10px  wheat, 0px 0px 10px orangered, 0px 0px 10px wheat, 0px 0px 10px orangered; 
     
 }
@@ -150,7 +150,7 @@ a:nth-child(5){
     position: absolute;
     height: 200px;
     width: 295px;
-    background-color: red;
+    /* background-color: red; */
     animation:round 3s linear infinite;
 }
 .circle span::before{
