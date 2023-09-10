@@ -235,6 +235,13 @@ a:nth-child(5){
 
 /* ................ */
 /* About Section */
+.about-image{
+    border: 2px solid transparent;
+    border-image: linear-gradient(red, yellow);
+    border-image-slice: 1;
+    
+    border-image-source: 40px;
+}
 .about-section{
     color: white;
     text-align: center;
