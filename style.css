@@ -103,7 +103,7 @@ a:nth-child(5){
 }
 /* Navbar   END*/
 /* .................................... */
-.container{
+.containers{
     background-image: url('https://images.unsplash.com/photo-1610296669228-602fa827fc1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80');    background-attachment: fixed;
     background-size: cover;
     display: flex;
@@ -113,7 +113,7 @@ a:nth-child(5){
     background-color: gray;
     align-items: center;
 }
-.container .circle{
+.containers .circle{
     position: relative;
     display: flex;
     justify-content: center;
