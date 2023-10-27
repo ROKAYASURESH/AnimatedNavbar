@@ -18,6 +18,13 @@
 .width-50 {
 	float: left;
 	width: 50%;
+   
+}
+.width-50 img{
+    width:100%;
+    height: 91vh;
+
+
 }
 .banner-section {
 	width: 100%;
